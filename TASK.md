@@ -4,9 +4,9 @@
 - [x] Task 1: Project scaffolding
 - [x] Task 2: Vocab module
 - [x] Task 3: Parse raw YOOCHOOSE files
+- [x] Task 4: Session events, filtering, outcomes
 
 ## Not Started
-- [ ] Task 4: Session events, filtering, outcomes
 - [ ] Task 5: Tokenize sessions
 - [ ] Task 6: Temporal train/test split
 - [ ] Task 7: PyTorch Dataset + collate

@@ -8,3 +8,8 @@
 - YOOCHOOSE parsers: `load_clicks()` and `load_buys()` for reading raw
   `.dat` files into DataFrames with proper schema (session_id, timestamp,
   item_id, category for clicks; adds price, quantity for buys).
+- Session event streams: `build_session_events()` combines clicks+buys into
+  chronological per-session events with action_type (view/buy).
+- Session filtering and outcome labels: `filter_sessions()` drops short
+  sessions and truncates long ones; `session_outcomes()` extracts sessions
+  with purchases.
