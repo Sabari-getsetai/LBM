@@ -40,4 +40,4 @@ def filter_sessions(events: pd.DataFrame, min_len: int, max_len: int) -> pd.Data
         .apply(_truncate)
         .reset_index(drop=True)
     )
-    return events
+    return events[["session_id", "timestamp", "item_id", "category", "action_type"]]
