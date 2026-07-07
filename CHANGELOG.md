@@ -13,3 +13,6 @@
 - Session filtering and outcome labels: `filter_sessions()` drops short
   sessions and truncates long ones; `session_outcomes()` extracts sessions
   with purchases.
+- Tokenize sessions: `SessionRecord` dataclass and `tokenize_sessions()`
+  function to encode event DataFrames into integer-id SessionRecord instances
+  ready for embedding lookups in downstream model/dataset/baseline.
