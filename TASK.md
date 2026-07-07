@@ -3,9 +3,9 @@
 ## Completed
 - [x] Task 1: Project scaffolding
 - [x] Task 2: Vocab module
+- [x] Task 3: Parse raw YOOCHOOSE files
 
 ## Not Started
-- [ ] Task 3: Parse raw YOOCHOOSE files
 - [ ] Task 4: Session events, filtering, outcomes
 - [ ] Task 5: Tokenize sessions
 - [ ] Task 6: Temporal train/test split
