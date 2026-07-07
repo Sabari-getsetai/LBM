@@ -1,0 +1,25 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  n_sessions_subsample: 300000
+  max_session_len: 50
+  min_session_len: 2
+  top_k_items: 20000
+  test_days: 1
+
+model:
+  embed_dim: 64
+  n_layers: 2
+  n_heads: 2
+  ffn_dim: 128
+  dropout: 0.1
+
+train:
+  batch_size: 64
+  epochs: 3
+  lr: 0.001
+  outcome_loss_weight: 1.0
+  seed: 42
+
+eval:
+  k: 20
